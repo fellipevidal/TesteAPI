@@ -1,0 +1,146 @@
+{
+	"id": "9609dcc6-0a38-46bb-9348-bad76b8c6264",
+	"name": "Teste",
+	"timestamp": "2024-04-09T02:35:19.174Z",
+	"collection_id": "20706790-39c30154-f61d-4cc2-b0a8-843006d455b5",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-04-09T02:35:17.376Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ba573ebb-1973-408e-987e-d31c85b4f4dd",
+			"name": "Create User",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 416,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code retornado  foi 201": true
+			},
+			"testPassFailCounts": {
+				"Status code retornado  foi 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				416
+			],
+			"allTests": [
+				{
+					"Status code retornado  foi 201": true
+				}
+			]
+		},
+		{
+			"id": "b6750b5b-c87c-4d23-8beb-c2d81bec965f",
+			"name": "Get Single User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code retornado  foi 200": true
+			},
+			"testPassFailCounts": {
+				"Status code retornado  foi 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"Status code retornado  foi 200": true
+				}
+			]
+		},
+		{
+			"id": "d5457dd6-ad52-41d8-a26d-9d4d76851ab6",
+			"name": "Get List Users",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 40,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code retornado  foi 200": true
+			},
+			"testPassFailCounts": {
+				"Status code retornado  foi 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				40
+			],
+			"allTests": [
+				{
+					"Status code retornado  foi 200": true
+				}
+			]
+		},
+		{
+			"id": "fe0d1fba-5734-4b85-9792-13f46d2f3898",
+			"name": "Atualizacao User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 432,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code retornado  foi 200": true
+			},
+			"testPassFailCounts": {
+				"Status code retornado  foi 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				432
+			],
+			"allTests": [
+				{
+					"Status code retornado  foi 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 920,
+	"collection": {
+		"requests": [
+			{
+				"id": "ba573ebb-1973-408e-987e-d31c85b4f4dd",
+				"method": "POST"
+			},
+			{
+				"id": "b6750b5b-c87c-4d23-8beb-c2d81bec965f",
+				"method": "GET"
+			},
+			{
+				"id": "d5457dd6-ad52-41d8-a26d-9d4d76851ab6",
+				"method": "GET"
+			},
+			{
+				"id": "fe0d1fba-5734-4b85-9792-13f46d2f3898",
+				"method": "PATCH"
+			}
+		]
+	}
+}
